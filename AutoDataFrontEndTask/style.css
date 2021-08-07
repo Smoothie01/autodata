@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin-top: 40px;
+}
+tr {
+    background: #DDDDDD
+}
+th, td {
+    display: inline-block;
+    width: 22%;
+    height: 48px;
+    text-align:left;
+    font-size: 18px;
+    padding: 8px 0 6px 4px;
+}
+th {
+    font-size: 24px;
+    font-weight: bold;
+}
+.table, tr{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.table {
+    width: 57%;
+    border: 2px solid #000;
+}
+.btn {
+    padding: 12px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #DDDDDD;
+    border: 1px solid #808B96;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    margin-left: 12px;
+}
+.edit {
+    position: relative;
+    background: #0074D9;
+    width: 120px;
+}
+
+.save {
+    display: none;
+    position: relative;
+    background: #3D9970;
+    width: 120px;
+}
+
+.delete {
+    background: #EC7063;
+    margin-left: 4px;
+}
+
+.editable {
+    cursor: pointer;
+    background: #c5c5c5;
+    transition: 0.5s;
+}
